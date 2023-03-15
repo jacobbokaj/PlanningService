@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PlanningService-fd13a6e8-5ed9-4d05-8afc-d8a17fa7612f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+    <PackageReference Include="SuperConvert" Version="1.0.3.7" />
+  </ItemGroup>
+</Project>
