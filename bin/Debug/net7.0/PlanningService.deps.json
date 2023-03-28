@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.Extensions.Hosting": "7.0.1",
           "NLog": "5.1.2",
+          "NLog.Targets.Loki": "1.4.6",
           "NLog.Web.AspNetCore": "5.2.2",
           "RabbitMQ.Client": "6.4.0",
           "SuperConvert": "1.0.3.7"
@@ -233,6 +234,17 @@
           "lib/net6.0/NLog.Extensions.Logging.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.2.2.309"
+          }
+        }
+      },
+      "NLog.Targets.Loki/1.4.6": {
+        "dependencies": {
+          "NLog": "5.1.2"
+        },
+        "runtime": {
+          "lib/net7.0/NLog.Loki.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -473,6 +485,13 @@
       "sha512": "sha512-V6sd+0Hrk2XlU//XbUizFYTE8Hf8+xFkhi81shIhsKl4tvWFUYmjBY/zBy/wlQCt0K6mfseaEKnayRJVhIz5Iw==",
       "path": "nlog.extensions.logging/5.2.2",
       "hashPath": "nlog.extensions.logging.5.2.2.nupkg.sha512"
+    },
+    "NLog.Targets.Loki/1.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AOfVvNR3Pw1hH1Pur0m6XYzL+BPDCbSicI2aBSFvM5wWU+JuvV9DqRZOAT5eExvTQGghdifV8TojYZn8JGcRBg==",
+      "path": "nlog.targets.loki/1.4.6",
+      "hashPath": "nlog.targets.loki.1.4.6.nupkg.sha512"
     },
     "NLog.Web.AspNetCore/5.2.2": {
       "type": "package",
