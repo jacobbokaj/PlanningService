@@ -58,6 +58,7 @@ public class Worker : BackgroundService
                     }
                     if (message[i] == ',')
                     {
+                        
                         addCharFlag = false;
                         csvFormat += ',';
                     }
